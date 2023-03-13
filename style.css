@@ -1,0 +1,53 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin-top: 30px;
+}
+
+#search {
+    font-size: 18px;
+    padding: 10px;
+    margin-right: 10px;
+    width: 60%;
+}
+
+#search-button {
+    font-size: 18px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+#results {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.song {
+    margin: 10px;
+    width: 200px;
+}
+
+.song img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.song h2 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.song h3 {
+    font-size: 14px;
+    margin-top: 5px;
+}
