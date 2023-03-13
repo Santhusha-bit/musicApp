@@ -1,17 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>My Music App</title>
+	<title>Music Hub</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 	<div class="container">
-		<h1>My Music App</h1>
+		<h1 id="topic">Music Hub</h1>
 		<input type="text" id="search" placeholder="Search for a song...">
 		<button id="search-button">Search</button>
-		<div id="results"></div>
+		<div id="results">
+			<h1 id="screen-text">Listen to the music</h1>
+		</div>
 	</div>
 	<audio id="audio-player"></audio>
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<p>&copy; 2023 Music Web App</p>
+				</div>
+			</div>
+		</div>
+	</footer>
 
 	<script src="script.js"></script>
 </body>

@@ -11,14 +11,6 @@ searchButton.addEventListener("click", () => {
   }
 });
 
-searchInput.addEventListener("keydown", () => {
-  const query = searchInput.value;
-
-  if (query) {
-    search(query);
-  }
-});
-
 function search(query) {
   fetch(
     `https://cors-anywhere.herokuapp.com/https://api.deezer.com/search?q=${query}`
